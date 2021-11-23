@@ -1,0 +1,44 @@
+.landing-page__heading {
+    font-size: 48px;
+    font-family: $font;
+    width:319px;
+    height: 169px;
+    text-align: start;
+    font-weight: 300;
+}
+.landing-page__paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: $font;
+    width:324px;
+    height: 64px;
+    text-align: start;
+    font-weight: 300;
+}
+
+.landing-page__footerImg {
+    width: 100vw;
+
+}
+.landing-page {
+    margin: 10px;
+}
+
+//  Landing Button CSS
+
+.landing-button_btn{
+background-color: $todo-completed;
+color: $white-color;
+height: 52px;
+width: 144px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+padding: 12px, 24px, 12px, 24px;
+border: none;
+
+}
+
+.landing-button__container {
+    text-align: start;
+}

@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100&display=swap');
+
+$todo-priority: #EE4444;
+$todo-in-progress: #FEDD4B;
+$todo-completed: #3B99E9;
+$black-color: #000000;
+$background-color: #EEDDF5;
+$white-color: #ffffff;
+
+$font: "Roboto", sans-serif;
+
+
+
+
+
+@import "navigation";
+@import "landing";
+@import "dashboard";
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
 .App {
   text-align: center;
 }
