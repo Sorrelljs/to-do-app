@@ -8,7 +8,9 @@ const Navigation = () => {
             <Link to="/">
             <img src={logo} alt="" />
             </Link>
+        <Link to="/create">
             <img src={add} alt="" />
+        </Link>
         </div>
      );
 }

@@ -11,9 +11,131 @@ letter-spacing: 0.25px;
 text-align: left;
 margin: 10px;
 margin-top: 40px;
+margin-bottom: 40px;
 
 }
 
 .taskList_container__list {
-    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+img.taskList_container__logo {
+    width: 24px;
+    height: 30px; 
+}
+
+.taskList_vector__container {
+    align-self: center;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    width: 64px;
+    left: 24px;
+    border-radius: 8px;
+    // background-color: $todo-priority;
+
+    &.red {
+        background-color: $todo-priority;
+        
+}
+    &.yellow {
+        background-color: $todo-in-progress;
+}
+    &.blue {
+        background-color: $todo-completed;
+}
+}
+
+.taskList_vector__holder {
+    margin: 0 auto;
+}
+.taskList_container__title {
+    font-weight: 800;
+    font-family: $font;
+}
+
+// foot background component css
+
+.footer-background__container {
+    position: absolute;
+    width: 375px;
+    height: 307px;
+    left: 0px;
+    top: 505px;
+    /* TO DO / GRAY */
+    background: #EDEEF5;
+    border-radius: 24px 24px 0px 0px;
+
+}
+
+.footer-background__groupcontainer {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        align-self: center;
+
+        a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
+
+.footer-background__title {
+    //styleName: TO DO / H5;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.footer-background__button {
+    //styleName: TO DO / BODY 2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: right;
+
+}
+
+.footer-background__button{
+    text-decoration: none;
+}
+
+// card css 
+
+
+.card--component_container {
+/* Rectangle 7 */
+
+
+position: absolute;
+width: 327px;
+height: 156px;
+left: 24px;
+top: 613px;
+
+/* TO DO / WHITE */
+
+background: #FFFFFF;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 8px;
+}
+
+
+/// create page css
+
+.create-page__form {
+    position: absolute;
+    z-index: 100;
 }
