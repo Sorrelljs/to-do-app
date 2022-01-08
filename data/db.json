@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "title": "2 Night Stay In Venice",
+            "paragraph": "hello sir how are you today",
+            "id": 1,
+            "date": "02/10/2022"
+        },
+        {
+            "title": "3 Night Stay In Paris",
+            "paragraph": "hello sir how are you today",
+            "id": 2,
+            "date": "01/01/2021"
+        },
+        {
+            "title": "2 Night Stay In London",
+            "paragraph": "hello sir how are you today",
+            "id": 3,
+            "date": "04/04/2021"
+        },
+        {
+            "title": "4 Night Stay In New York",
+            "paragraph": "hello sir how are you today",
+            "id": 4,
+            "date": "08/08/2021"
+        }
+    ]
+}

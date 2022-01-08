@@ -12,10 +12,12 @@ const Create = (props) => {
     return ( 
         <div className="create-page__container">
             <p className="title_h4__dashboard">{props.title}</p>
-                
-                            <FooterBackground
-                            height={619}
-                            top={193}/>
+                    
+     <FooterBackground
+        height={619}
+        top={193}
+        />
+
         <div className="create-form__wrap">
             <form className="create-page__form" onSubmit={handleSubmit}>
                 <label>Blog Title:</label>
@@ -44,6 +46,7 @@ const Create = (props) => {
            
                 <p>{title}</p>
                 <p>{body}</p>
+                <button className="create-submit__btn">Submit</button>
             </form>
         </div>
         </div>

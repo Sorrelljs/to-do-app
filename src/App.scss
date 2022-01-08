@@ -65,3 +65,17 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+// all taskList CSS
+
+.all_tasklist__container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.all_tasklist__container .card--component__group {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+}
